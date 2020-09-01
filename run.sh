@@ -14,9 +14,9 @@ sudo chmod +x /home/vacus/Desktop/turbo-boost.sh
 
 sudo /home/vacus/Desktop/turbo-boost.sh disable
 
-sudo apt install lm-sensors
+sudo apt install lm-sensors -y
 
-sudo apt install cpufrequtils 
+sudo apt install cpufrequtils -y
 
 sensors
 
