@@ -14,6 +14,14 @@ sudo chmod +x /home/vacus/Desktop/turbo-boost.sh
 
 sudo /home/vacus/Desktop/turbo-boost.sh disable
 
+sudo apt install lm-sensors
+
+sudo apt install cpufrequtils 
+
+sensors
+
+cpufreq-info
+
 sudo crontab mycronjob
 
 sudo systemctl restart broker
