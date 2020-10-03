@@ -16,7 +16,7 @@ sudo ./install.sh
 
 cd
 
-sudo cp /home/vacus/intel_run/ardpkg/gitlfs/.arduino15 /home/vacus/ 
+sudo cp -r /home/vacus/intel_run/ardpkg/gitlfs/.arduino15 /home/vacus/ 
 
 sudo systemctl stop broker
 
